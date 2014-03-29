@@ -1,6 +1,6 @@
 {
   "name": "xspfr",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Node based XSPF parser",
   "main": "xspfr.js",
   "scripts": {
@@ -22,6 +22,6 @@
   "homepage": "https://github.com/hotmeteor/xspfr",
   "dependencies": {
     "underscore": "~1.6.0",
-    "xml2js": "~0.4.1"
+    "xml2js": "~0.4.2"
   }
 }
