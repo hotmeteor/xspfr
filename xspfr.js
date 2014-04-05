@@ -43,7 +43,17 @@ module.exports = function(xml, callback) {
 
 		var tracks = result.playlist.tracklist[0].track.length ? result.playlist.tracklist[0].track : result.playlist.tracklist;
 
-		_.each(tracks, function(track) {
+		_.each(tracks, function(track, index) {
+
+			// Loop over track and force everything to string or number.
+			_.each(track, function(value, key) {
+				track[key] = value+'';
+
+				if( _.isNumber(track[key]) ) {
+					track[key] = +track[key];
+				}
+			});
+
 			playlist.push(track);
 		});
 

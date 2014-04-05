@@ -1,0 +1,129 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/Adam/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/tmp.tgz
+12 verbose folder .
+13 info prepublish xspfr@0.3.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/Adam/.npm/1f1177db-tar.lock
+16 silly lockFile 78f7edc6-270703-0-676153571344912-tmp-tgz tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/tmp.tgz
+17 verbose lock tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/tmp.tgz /Users/Adam/.npm/78f7edc6-270703-0-676153571344912-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 78f7edc6-270703-0-676153571344912-tmp-tgz tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/tmp.tgz
+21 silly lockFile 78f7edc6-270703-0-676153571344912-tmp-tgz tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/tmp.tgz
+22 verbose tar unpack /var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/tmp.tgz
+23 silly lockFile 9057f71b-270703-0-676153571344912-package tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/package
+24 verbose lock tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/package /Users/Adam/.npm/9057f71b-270703-0-676153571344912-package.lock
+25 silly lockFile 78f7edc6-270703-0-676153571344912-tmp-tgz tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/tmp.tgz
+26 verbose lock tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/tmp.tgz /Users/Adam/.npm/78f7edc6-270703-0-676153571344912-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry LICENSE
+32 silly gunzTarPerm extractEntry xspfr.js
+33 silly lockFile 9057f71b-270703-0-676153571344912-package tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/package
+34 silly lockFile 9057f71b-270703-0-676153571344912-package tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/package
+35 silly lockFile 78f7edc6-270703-0-676153571344912-tmp-tgz tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/tmp.tgz
+36 silly lockFile 78f7edc6-270703-0-676153571344912-tmp-tgz tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/tmp.tgz
+37 verbose tar pack [ '/Users/Adam/.npm/xspfr/0.3.0/package.tgz',
+37 verbose tar pack   '/var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/package' ]
+38 verbose tarball /Users/Adam/.npm/xspfr/0.3.0/package.tgz
+39 verbose folder /var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/package
+40 silly lockFile 9057f71b-270703-0-676153571344912-package tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/package
+41 verbose lock tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/package /Users/Adam/.npm/9057f71b-270703-0-676153571344912-package.lock
+42 silly lockFile 8325de19-Adam-npm-xspfr-0-3-0-package-tgz tar:///Users/Adam/.npm/xspfr/0.3.0/package.tgz
+43 verbose lock tar:///Users/Adam/.npm/xspfr/0.3.0/package.tgz /Users/Adam/.npm/8325de19-Adam-npm-xspfr-0-3-0-package-tgz.lock
+44 silly lockFile 9057f71b-270703-0-676153571344912-package tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/package
+45 silly lockFile 9057f71b-270703-0-676153571344912-package tar:///var/folders/j3/7_4mwxvd72g2_nkflvz9b74r0000gn/T/npm-72590-ex9A1j7y/1396126270703-0.676153571344912/package
+46 silly lockFile 8325de19-Adam-npm-xspfr-0-3-0-package-tgz tar:///Users/Adam/.npm/xspfr/0.3.0/package.tgz
+47 silly lockFile 8325de19-Adam-npm-xspfr-0-3-0-package-tgz tar:///Users/Adam/.npm/xspfr/0.3.0/package.tgz
+48 silly lockFile fe8f97b3-ers-Adam-npm-xspfr-0-3-0-package /Users/Adam/.npm/xspfr/0.3.0/package
+49 verbose lock /Users/Adam/.npm/xspfr/0.3.0/package /Users/Adam/.npm/fe8f97b3-ers-Adam-npm-xspfr-0-3-0-package.lock
+50 silly lockFile fe8f97b3-ers-Adam-npm-xspfr-0-3-0-package /Users/Adam/.npm/xspfr/0.3.0/package
+51 silly lockFile fe8f97b3-ers-Adam-npm-xspfr-0-3-0-package /Users/Adam/.npm/xspfr/0.3.0/package
+52 verbose tar unpack /Users/Adam/.npm/xspfr/0.3.0/package.tgz
+53 silly lockFile a200b5f6-ers-Adam-npm-xspfr-0-3-0-package tar:///Users/Adam/.npm/xspfr/0.3.0/package
+54 verbose lock tar:///Users/Adam/.npm/xspfr/0.3.0/package /Users/Adam/.npm/a200b5f6-ers-Adam-npm-xspfr-0-3-0-package.lock
+55 silly lockFile 8325de19-Adam-npm-xspfr-0-3-0-package-tgz tar:///Users/Adam/.npm/xspfr/0.3.0/package.tgz
+56 verbose lock tar:///Users/Adam/.npm/xspfr/0.3.0/package.tgz /Users/Adam/.npm/8325de19-Adam-npm-xspfr-0-3-0-package-tgz.lock
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm extractEntry .npmignore
+60 silly gunzTarPerm extractEntry README.md
+61 silly gunzTarPerm extractEntry LICENSE
+62 silly gunzTarPerm extractEntry xspfr.js
+63 silly lockFile a200b5f6-ers-Adam-npm-xspfr-0-3-0-package tar:///Users/Adam/.npm/xspfr/0.3.0/package
+64 silly lockFile a200b5f6-ers-Adam-npm-xspfr-0-3-0-package tar:///Users/Adam/.npm/xspfr/0.3.0/package
+65 silly lockFile 8325de19-Adam-npm-xspfr-0-3-0-package-tgz tar:///Users/Adam/.npm/xspfr/0.3.0/package.tgz
+66 silly lockFile 8325de19-Adam-npm-xspfr-0-3-0-package-tgz tar:///Users/Adam/.npm/xspfr/0.3.0/package.tgz
+67 verbose chmod /Users/Adam/.npm/xspfr/0.3.0/package.tgz 644
+68 verbose chown /Users/Adam/.npm/xspfr/0.3.0/package.tgz [ 501, 20 ]
+69 silly lockFile 3a52ce78- .
+70 silly lockFile 3a52ce78- .
+71 silly publish { name: 'xspfr',
+71 silly publish   version: '0.3.0',
+71 silly publish   description: 'Node based XSPF parser',
+71 silly publish   main: 'xspfr.js',
+71 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+71 silly publish   repository: { type: 'git', url: 'https://github.com/hotmeteor/xspfr.git' },
+71 silly publish   keywords: [ 'xspf', 'parser' ],
+71 silly publish   author: { name: 'Adam Campbell', url: '@hotmeteor' },
+71 silly publish   license: 'MIT',
+71 silly publish   bugs: { url: 'https://github.com/hotmeteor/xspfr/issues' },
+71 silly publish   homepage: 'https://github.com/hotmeteor/xspfr',
+71 silly publish   dependencies: { underscore: '~1.6.0', xml2js: '~0.4.2' },
+71 silly publish   readme: 'XSPFr\n=====\n\nA Node based XSPF parser that returns a JSON array of tracks from an XSPF playlist.\n\nFor more information on XSPF playlists see: http://www.xspf.org/\n\n# Installation\n\n````\nnpm install xspfr\n````\n\n# Usage\n\n````\nvar xspfr = require(\'xspfr\');\n\n... make request for XSPF file ...\n\nxspfr(myXspfFile, function(err, result){\n\n\tif (err) {\n\t\tconsole.log(err);\n\t\treturn;\n\t}\n\n\tconsole.log(result);\n\n})\n````\n\n`result` returns an array of objects filled with the track data.\n\n`err` returns the XML parsing error.',
+71 silly publish   readmeFilename: 'README.md',
+71 silly publish   _id: 'xspfr@0.3.0',
+71 silly publish   dist: { shasum: '643bdf245fcd0eaee753d3ee2a1458e6e6edeb9a' },
+71 silly publish   _from: '.' }
+72 verbose url raw xspfr
+73 verbose url resolving [ 'https://registry.npmjs.org/', './xspfr' ]
+74 verbose url resolved https://registry.npmjs.org/xspfr
+75 info trying registry request attempt 1 at 15:51:10
+76 http PUT https://registry.npmjs.org/xspfr
+77 http 403 https://registry.npmjs.org/xspfr
+78 error publish Failed PUT 403
+79 error Error: forbidden cannot modify pre-existing version: 0.3.0
+79 error old={"name":"xspfr","version":"0.3.0","description":"Node based XSPF parser","main":"xspfr.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/hotmeteor/xspfr.git"},"keywords":["xspf","parser"],"author":{"name":"Adam Campbell","url":"@hotmeteor"},"license":"MIT","bugs":{"url":"https://github.com/hotmeteor/xspfr/issues"},"homepage":"https://github.com/hotmeteor/xspfr","dependencies":{"underscore":"~1.6.0","xml2js":"~0.4.2"},"_id":"xspfr@0.3.0","dist":{"shasum":"643bdf245fcd0eaee753d3ee2a1458e6e6edeb9a","tarball":"http://registry.npmjs.org/xspfr/-/xspfr-0.3.0.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"hotmeteor","email":"adam@hotmeteor.com"},"maintainers":[{"name":"hotmeteor","email":"adam@hotmeteor.com"}]}
+79 error new={"name":"xspfr","version":"0.3.0","description":"Node based XSPF parser","main":"xspfr.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/hotmeteor/xspfr.git"},"keywords":["xspf","parser"],"author":{"name":"Adam Campbell","url":"@hotmeteor"},"license":"MIT","bugs":{"url":"https://github.com/hotmeteor/xspfr/issues"},"homepage":"https://github.com/hotmeteor/xspfr","dependencies":{"underscore":"~1.6.0","xml2js":"~0.4.2"},"readme":"XSPFr\u000a=====\u000a\u000aA Node based XSPF parser that returns a JSON array of tracks from an XSPF playlist.\u000a\u000aFor more information on XSPF playlists see: http://www.xspf.org/\u000a\u000a# Installation\u000a\u000a````\u000anpm install xspfr\u000a````\u000a\u000a# Usage\u000a\u000a````\u000avar xspfr = require('xspfr');\u000a\u000a... make request for XSPF file ...\u000a\u000axspfr(myXspfFile, function(err, result){\u000a\u000a\u0009if (err) {\u000a\u0009\u0009console.log(err);\u000a\u0009\u0009return;\u000a\u0009}\u000a\u000a\u0009console.log(result);\u000a\u000a})\u000a````\u000a\u000a`result` returns an array of objects filled with the track data.\u000a\u000a`err` returns the XML parsing error.","readmeFilename":"README.md","_id":"xspfr@0.3.0","dist":{"shasum":"643bdf245fcd0eaee753d3ee2a1458e6e6edeb9a","tarball":"http://registry.npmjs.org/xspfr/-/xspfr-0.3.0.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"hotmeteor","email":"adam@hotmeteor.com"},"maintainers":[{"name":"hotmeteor","email":"adam@hotmeteor.com"}]}: xspfr
+79 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+79 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+79 error     at Request.EventEmitter.emit (events.js:98:17)
+79 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+79 error     at Request.EventEmitter.emit (events.js:117:20)
+79 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+79 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+79 error     at _stream_readable.js:920:16
+79 error     at process._tickCallback (node.js:415:13)
+80 error If you need help, you may report this *entire* log,
+80 error including the npm and node versions, at:
+80 error     <http://github.com/npm/npm/issues>
+81 error System Darwin 13.1.0
+82 error command "node" "/usr/local/bin/npm" "publish"
+83 error cwd /Users/Adam/Sites/xspfr
+84 error node -v v0.10.26
+85 error npm -v 1.4.3
+86 verbose exit [ 1, true ]
