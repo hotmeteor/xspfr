@@ -1,6 +1,6 @@
 {
   "name": "xspfr",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Node based XSPF parser",
   "main": "xspfr.js",
   "scripts": {
